@@ -359,20 +359,39 @@ button a {
 }
 .contact-container form{
 	text-align: center;
+	padding-bottom:2vh;
+}
+.contact-submit{
+	text-align:center;
+}
+.contact-submit button{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	background: #5E3BEE;
+	border-radius: 5.33333px;
+	color:#FFFFFF;
+	padding:1vh 1.5vw;
+}
+.terms{
+	text-align:left;
+}
+.terms input{
+	margin:0.5vw;
 }
 .contact-title{
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 150%;
 }
 .contact-large{
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 40px;
 	line-height: 120%;
 }
 .contact-sub{
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 150%;
 }
 .contact-duoinput{
@@ -383,21 +402,98 @@ button a {
 	gap:2vw;
 }
 .contact-halfinput{
-	width:auto;
+	width:29vw;
 	text-align:left;
 }
-.contact-halfinput p{
+.contact-halfinput>p{
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 150%;
 }
-.contact-halfinput input{
+.contact-halfinput>input{
 	border: 1.33333px solid #5E3BEE;
 	border-radius: 8px;
-	font-size:40px;
+	font-size:26px;
+	padding:0.3em;
+	width:100%;
+}
+.contact-input{
+	padding-top:4vh;
+	width:100%;
+	text-align:left;
+}
+.contact-input>p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+}
+.contact-input>select{
+	border: 1.33333px solid #5E3BEE;
+	border-radius: 8px;
+	font-size:26px;
+	padding:0.3em;
+	width:100%;
+}
+.contact-input>input{
+	border: 1.33333px solid #5E3BEE;
+	border-radius: 8px;
+	font-size:18px;
+	min-height:30vh;
+	padding:0.3em;
+	width:100%;
 }
 
-
+.footer-container{
+	background:#F5FCFF;
+    padding: 4vh 0;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95vw;
+    margin: 0 auto;
+    padding: 0 20px;
+	padding-bottom:8vh;
+}
+.logo img{
+	width:50%;
+}
+.footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+.footer nav *{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+}
+.socials{
+	text-align:right;
+}
+.socials img{
+	width:10%;
+}
+.footer2{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	max-width: 95vw;
+	margin: 0 auto;
+	padding: 4vh 20px;
+	border-top:solid 1px;
+}
+.legalities{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	gap: 2em;
+}
 @media screen and (max-width: 768px) {
     .header .logo img {
         width: 150px;
